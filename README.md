@@ -1,6 +1,8 @@
 ### Clarity Ventures - Project Scenario
 
-This is the result of learning React and building an app doing exactly 2 hours of work and then stopping. This was my first time working with React.
+This is the result of learning React and building an app doing exactly 2 hours of work and then stopping. This was my first time working with React. I was able to cut the given templates into React elements and render them seperately however I ran out of time to get to functionality for clicking buttons, however I did get the product list to show in the cart using an array that is passed from a parent to child object.
+
+I want to add here that I knew relatively nothing about React other than it was used to build user interfaces for web based applications until the morning of this project starting. I spent 8+ hours researching and learning to be able to produce this very basic amount of work in two hours and for that I can say I am proud of myself.
 
 ## Images
 <img src="https://i.imgur.com/fhsZUzQ.png">
