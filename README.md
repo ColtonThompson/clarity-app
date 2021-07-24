@@ -1,5 +1,7 @@
 ### Clarity Ventures - Project Scenario
 
+This is the result of learning React and building an app doing exactly 2 hours of work and then stopping. This was my first time working with React.
+
 ## Images
 <img src="https://i.imgur.com/fhsZUzQ.png">
 <img src="https://i.imgur.com/NwbmBjM.png">
