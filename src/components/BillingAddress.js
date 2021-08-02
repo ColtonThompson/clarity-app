@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-import CheckoutCart from './CheckoutCart';
+import CheckoutModal from '../modals/CheckoutModal';
 
 class BillingAddress extends Component {
-  state = {};
-
-  checkoutCart() {
-    return <CheckoutCart />;
-  }
+  state = {showCheckout: false};
 
   render() {
     return (
@@ -252,10 +248,11 @@ class BillingAddress extends Component {
             <button
               class='btn btn-primary btn-lg btn-block'
               type='submit'
-              onClick={this.checkoutCart}
+              onClick={() => this.setState({showCheckout : true})}
             >
-              Continue to checkout
+              Continue to checkout (state:{this.state.showCheckout.toString()})
             </button>
+            <CheckoutModal show={this.state.showCheckout}></CheckoutModal>
           </form>
         </div>
       </React.Fragment>
