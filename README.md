@@ -6,7 +6,7 @@ I want to add here that I knew relatively nothing about React other than it was 
 
 ### UPDATES
 
-## WIP #1: Learning Modals
+## WIP #1: Learning Modals (2 More hours of work spent)
 I have now spent an additional two hours on this particular application and the focus of this time was spent learning modals and how they function. The goal is to allow the user to click the "Continue to Checkout" button after completing the billing address form information. I wanted to push an in progress version to continue the story of how I am learning react, this build shows the checkout modal regardless of the showCheckout state property being true or false. In the next update I hope to have this fixed and working as intended. I believe I need to restructure the HTML and JSX to allow the modal tag to feed style information. Currently sending the raw HTML is missing some styles that comes with the checkout cart template.
 
 <img src="https://i.imgur.com/a0oqXl7.png">
